@@ -1,0 +1,1118 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Mohanpgadala/python-assessment2/blob/main/FUNCTIONS%20IN%20PYTHON\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**FUNCTIONS**:\n",
+        "\n",
+        "\n",
+        "A function is a blocck of code. That performs\n",
+        " special task.\n",
+        "You can pass the data known as parameter into a funtions.\n",
+        "A function can return data as result.\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "hUzDXNsTzelj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def functionname():\n",
+        "    print(\"this is functionname\")\n",
+        "functionname()"
+      ],
+      "metadata": {
+        "id": "w2zzXWTa3bWh",
+        "outputId": "fa8b2443-c28f-41d6-93ce-350549dcc651",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "this is functionname\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "\n",
+        "1.   Single parameter (ARGUMENTS)\n",
+        "2.   Multi_parameter  (ARGUMENTS)\n",
+        "\n",
+        "SINGLE PARAMETER :\n",
+        "\n",
+        "Single parameter utility if his valuation of the possible outcomes can be represented by a single number.\n",
+        "\n",
+        "MULTI PARAMETER :\n",
+        "\n",
+        "Measuring or involving more than  one parameter.\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "_GKi35-p4T-M"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def functionname(name):\n",
+        "    print(\"this is functionname\",name)\n",
+        "functionname('Mohan')\n"
+      ],
+      "metadata": {
+        "id": "nQ2OU92j6ASn",
+        "outputId": "b91c30c5-bcdd-4655-c4e6-6f576d5dcaa3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "this is functionname Mohan\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def functionname(name,age):\n",
+        "    print(\"this is functionname\",name,age)\n",
+        "functionname('mohan',21)\n"
+      ],
+      "metadata": {
+        "id": "MgWiWcJa6z-P",
+        "outputId": "ac55dae4-4c0e-483e-b8a6-ea44497f44f6",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "this is functionname mohan 21\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "CALLING A FUNCTION A PYTHON:\n",
+        "\n",
+        "In the above example we have declared a function named \"functionname(name,age)\".\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "GeDoRc2K8WwC"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add_numbers (num1,num2):\n",
+        "    sum=num1+num2\n",
+        "print(\"sum1,sum2\")\n"
+      ],
+      "metadata": {
+        "id": "_A6H2OeJ9CsM",
+        "outputId": "4c40f2f3-b162-453a-e8d5-becda0d18006",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sum1,sum2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "RETURN STATEMENT:\n",
+        "\n",
+        "A return statement consists of the return keywords followed by an opitional return value.\n",
+        "\n",
+        "Method to send the functions result back to the caller."
+      ],
+      "metadata": {
+        "id": "UT0QLb0L9vDd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def functionname(a,b):\n",
+        "    return a+b\n",
+        "M=functionname(35,75)\n",
+        "print(M)\n"
+      ],
+      "metadata": {
+        "id": "sO3OFukN-m9a",
+        "outputId": "6c8ec7ef-3d83-40c8-f0a5-0b00e59b3c0f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "110\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def functionname(a):\n",
+        "  return a*5\n",
+        "M=functionname(5)\n",
+        "print(M)\n"
+      ],
+      "metadata": {
+        "id": "Kr1IKoHc_cwa",
+        "outputId": "50c6d066-95d4-42b9-d0a9-f55768e24043",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def functionname(a):\n",
+        "    return a*5\n",
+        "print(functionname(5))"
+      ],
+      "metadata": {
+        "id": "_cNkGNdC_2d2",
+        "outputId": "567f061b-827e-4b8d-b770-6d44923e7763",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "*LAMBDA FUNCTION*\n",
+        "\n",
+        "A lambda function is a small anonymous function.\n",
+        "A lambda function can take any number od arguments."
+      ],
+      "metadata": {
+        "id": "QRsriFy6BqAI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=lambda a:a+100\n",
+        "print(x(20))\n"
+      ],
+      "metadata": {
+        "id": "nRhgynQPK0nC",
+        "outputId": "6b262cfc-78db-49c1-b49d-dbfde571cd82",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "120\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def fun(a,n):\n",
+        "  return lambda a:a*n\n",
+        "print(fun(2,3))"
+      ],
+      "metadata": {
+        "id": "SmVtcAJLNw0A",
+        "outputId": "67058851-f764-488b-ae70-0d1d2738de4e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<function fun.<locals>.<lambda> at 0x7e3b69003880>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "CODING QUESTIONS:\n",
+        "\n",
+        "1. WRITE A PYTHON PROGRAM TO CHECK IF A STRING IS A PALIDROME."
+      ],
+      "metadata": {
+        "id": "7uxKd-ItRtRC"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def ispalindrome(s):\n",
+        "  if s==s[::-1]:\n",
+        "    return \"Palindrome\"\n",
+        "  return \"Not a palindrome\"\n",
+        "s=input()\n",
+        "print(ispalindrome(s))\n"
+      ],
+      "metadata": {
+        "id": "aGv_HAu1SN3R",
+        "outputId": "560b2bd8-8e2e-46f3-c502-61a168a2f427",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "madam\n",
+            "Palindrome\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2.WRITE A PYTHON PROGRAM TO FIND THE FACTORIAL OF NUMBER."
+      ],
+      "metadata": {
+        "id": "PM2bhj1LUjOr"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def factorial(n):\n",
+        "  fact=1\n",
+        "  for i in range (1,n+1):\n",
+        "    fact*=i\n",
+        "  return fact\n",
+        "n=int(input())\n",
+        "print(factorial(n))"
+      ],
+      "metadata": {
+        "id": "GcyNXGh2U3e8",
+        "outputId": "b2c4213f-0b88-4664-cd33-4333253ecced",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n",
+            "24\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3.WRITE A PYTHON PROGRAM TO FIND THE LARGEST ELEMENT IN A LIST."
+      ],
+      "metadata": {
+        "id": "NoH-XoKYV1-f"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def largest_element(l):\n",
+        "  return max(l)\n",
+        "l=list(map(int,input().split()))\n",
+        "print(largest_element(l))"
+      ],
+      "metadata": {
+        "id": "5H9yLxhTWV7P",
+        "outputId": "ebd2126a-8015-40f8-86d7-5f20b5fdf8eb",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3 6 9 13 27 81 74\n",
+            "81\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4.WRITE A PYTHON PROGRAM TO REVERSE A STRING."
+      ],
+      "metadata": {
+        "id": "w6m7FAzZX2oF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def reversed(s):\n",
+        "  return s[::-1]\n",
+        "s=input()\n",
+        "print(reversed(s))"
+      ],
+      "metadata": {
+        "id": "W_bP5OxsYIPB",
+        "outputId": "7647992f-cf1d-4ced-e935-041b50e461fc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mahi\n",
+            "ihaM\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5.WRITE A PYTHON PROGRAM TO COUNT THE FREQUENCY OF EACH ELEMENT IN A LIST."
+      ],
+      "metadata": {
+        "id": "jM5yfoKAYrdZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def freq(l):\n",
+        "  d={}\n",
+        "  for i in l:\n",
+        "     if i in d:\n",
+        "        d[i] += 1\n",
+        "     else:\n",
+        "        d[i] = 1\n",
+        "  return d\n",
+        "l = list(map(int,input().split()))\n",
+        "print(freq(l))"
+      ],
+      "metadata": {
+        "id": "Rn5d-xnIY9Lc",
+        "outputId": "3a5f5300-9331-4743-fc41-046a2cc71468",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6 4 5 6 4 7 9 5 9 10 6\n",
+            "{6: 3, 4: 2, 5: 2, 7: 1, 9: 2, 10: 1}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6.WRITE A PYTHON PROGRAM TO CHECK IF A NUMBER IS PRIME."
+      ],
+      "metadata": {
+        "id": "95vIQtAXe8K9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def isprime(n):\n",
+        "  c=0\n",
+        "  for i in range (1,n+1):\n",
+        "     if n%i==0:\n",
+        "      c+=1\n",
+        "  if c==2:\n",
+        "    return \"Prime\"\n",
+        "  return \"Not Prime\"\n",
+        "n=int(input())\n",
+        "print(isprime(n))\n"
+      ],
+      "metadata": {
+        "id": "M0ND29NVfPdh",
+        "outputId": "2aa32bb1-d703-435a-c4e9-834abf53ccf3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "Not Prime\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7.WRITE A PYTHON PROGRAM TO FIND THE COMMON ELEMENTS BETWEEN TWO LISTS."
+      ],
+      "metadata": {
+        "id": "1lmSjrQ_iJuH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def common(l1,l2):\n",
+        "  res=[]\n",
+        "  for i in l1:\n",
+        "    if i in l2:\n",
+        "      res.append(i)\n",
+        "    return res\n",
+        "l1=list(map(int,input().split()))\n",
+        "l.sort\n",
+        "print(l[len(l)-2])"
+      ],
+      "metadata": {
+        "id": "WRf1ZD_Xiidw",
+        "outputId": "e694a5e8-2169-4b0e-cf9a-7eac64589b28",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "11 3 14 8 5 10\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. WRITE A PYTHON PROGRAM TO FIND THE SECOND LARGEST NUMBER IN A LIST"
+      ],
+      "metadata": {
+        "id": "hwATO30Zm1n9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "l=list(map(int,input().split()))\n",
+        "l.sort()\n",
+        "print(l[len(l)-2])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8LmCiixTnNbh",
+        "outputId": "b5b5d2a4-12f1-45ea-c228-55f356201a60"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1 3 9 7 6 21\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. WRITE A PYTHON PROGRAM TO REMOVE DUPLICATES FROM A LIST."
+      ],
+      "metadata": {
+        "id": "WHMfPiZ5n4Dd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def remove_dup(l):\n",
+        "    res=[]\n",
+        "    for i in l:\n",
+        "        if i not in res:\n",
+        "            res.append(i)\n",
+        "    return res\n",
+        "l=list(map(int,input().split()))\n",
+        "print(remove_dup(l))\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UF1dEy0koRVe",
+        "outputId": "b703d47b-6db9-4d34-a3a0-5d46707a1a87"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1 2 1 3 7 9 6 1 4 7 4 2\n",
+            "[1, 2, 3, 7, 9, 6, 4]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10. WRITE A PYTHON PROGRAM TO COUNTING VOWELS IN WORD."
+      ],
+      "metadata": {
+        "id": "TnJicMerottS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def vowels_count(s):\n",
+        "    l=['a','e','i','o','u','A','E','I','O','U']\n",
+        "    c=0\n",
+        "    for i in s:\n",
+        "        if i in l:\n",
+        "            c+=1\n",
+        "    return c\n",
+        "s=input()\n",
+        "print(vowels_count(s))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AVdAI9bspBU-",
+        "outputId": "6741a4d4-7517-4c7c-ad7f-cfad55b30c43"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "MOHANmahi\n",
+            "4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "11. WRITE A PYTHON PROGRAM TO COUNT THE NUMBER OF OCCURRENCES OF A CHARACTER IN A STRING."
+      ],
+      "metadata": {
+        "id": "qGZX4jYPpl_b"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def occurance(s,ch):\n",
+        "    c=0\n",
+        "    for i in s:\n",
+        "        if i==ch:\n",
+        "            c+=1\n",
+        "    return c\n",
+        "s=input()\n",
+        "ch=input()\n",
+        "print(occurance(s,ch))\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q8BUiOpUpn9E",
+        "outputId": "0baa5712-50b9-40bf-d646-2989d4969fc0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "mohangopipagadala\n",
+            "a\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "12. WRITE A PYTHON PROGRAM TO FIND THE MAXIMUM NUMBER IN A LIST."
+      ],
+      "metadata": {
+        "id": "23-ux5h3p8CN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "l=list(map(int,input().split()))\n",
+        "print(max(l))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tKE8xFWQqEoW",
+        "outputId": "e8d2d09c-8610-45cc-eeb5-e713a765edf0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3 9 8 6 13 17 21 81 74\n",
+            "81\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "13. WRITE A PYTHON PROGRAM TO FIND THE MINIMUM NUMBER IN A LIST."
+      ],
+      "metadata": {
+        "id": "vmbIqsH0m48M"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "l=list(map(int,input().split()))\n",
+        "print(min(l))\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dhR4WXZzqYFb",
+        "outputId": "e82e43a3-60e7-4963-b81b-9e32ba87a92b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3 9 8 6 13 17 21 81 74\n",
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "14. PYTHON PROGRAM TO FIND SMALLEST NUMBER AMONG THREE."
+      ],
+      "metadata": {
+        "id": "olK2wRrOqp7E"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1=int(input())\n",
+        "num2=int(input())\n",
+        "num3=int(input())\n",
+        "print(min(num1,num2,num3))\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RklSv6vxqzB8",
+        "outputId": "0d39012d-96a1-4076-fc04-445f8e0b25ee"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n",
+            "3\n",
+            "9\n",
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "15. PYTHON PROGRAM TO CALCULATE THE SQUARE OF A GIVEN NUMBER."
+      ],
+      "metadata": {
+        "id": "idd2vsmQrTpG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "n=int(input())\n",
+        "print(math.sqrt(n))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N_3KBV5trUnb",
+        "outputId": "ab4d7cba-0e4b-4500-f3a6-71af45e34edd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n",
+            "3.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "16. PYTHON PROGRAM TO CALCULATE LCM OF GIVEN TWO NUMBERS."
+      ],
+      "metadata": {
+        "id": "dGrgxLWmrvLv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def LCM(a,b):\n",
+        "    m=max(a,b)\n",
+        "    while(1):\n",
+        "        if m%a==0 and m%b==0:\n",
+        "            return m\n",
+        "        m+=1\n",
+        "num1=int(input())\n",
+        "num2=int(input())\n",
+        "print(LCM(num1,num2))\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iynpKf5vr305",
+        "outputId": "0f16d4a4-5b6b-4608-9076-2109c9601172"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n",
+            "3\n",
+            "21\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "17. PYTHON PROGRAM TO COPY ONE STRING TO ANOTHER STRING."
+      ],
+      "metadata": {
+        "id": "v1Jl8GT7sYFW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def copy(s):\n",
+        "    s1=s\n",
+        "    return s1\n",
+        "s=input()\n",
+        "print(copy(s))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I-T95M6qsifM",
+        "outputId": "73bdaf9d-4d4a-4cd2-aa47-feffccf8e63a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "mahi\n",
+            "mahi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "18. PYTHON PROGRAM TO SORT CHARACTERS OF STRING IN ASCENDING ORDER."
+      ],
+      "metadata": {
+        "id": "2hNtpT6Gs1u6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def sort_string(s):\n",
+        "    l=[]\n",
+        "    for i in s:\n",
+        "        l.append(i)\n",
+        "    l.sort()\n",
+        "    return \"\".join(l)\n",
+        "s=input()\n",
+        "print(sort_string(s))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CuFSMxhBs2m1",
+        "outputId": "3048bda7-ca8b-4c60-aaff-90d5c6670681"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "mahi\n",
+            "ahim\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "19. PYTHON PROGRAM TO SORT CHARACTER OF STRING IN DESCENDING ORDER."
+      ],
+      "metadata": {
+        "id": "6OLjieh7s92G"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def sort_string(s):\n",
+        "    l=[]\n",
+        "    for i in s:\n",
+        "        l.append(i)\n",
+        "    l.sort()\n",
+        "    return \"\".join(l[len(l)::-1])\n",
+        "s=input()\n",
+        "print(sort_string(s))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TPCdDy4rtGuG",
+        "outputId": "33389163-4eee-4ae2-eb80-26ba85c952be"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "mohan\n",
+            "onmha\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "20. WRITE A PROGRAM IN PYTHON TO SWAP TWO NUMBERS WITHOUT USING THIRD VARIABLE"
+      ],
+      "metadata": {
+        "id": "ASFm6mx1tUa3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def swap(a,b):\n",
+        "    a=a+b\n",
+        "    b=a-b\n",
+        "    a=a-b\n",
+        "    return a,b\n",
+        "num1=int(input())\n",
+        "num2=int(input())\n",
+        "print(swap(num1,num2))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H1hMPP4mtVhc",
+        "outputId": "f832b5c2-f20d-43cb-da1b-51dafa0ab378"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n",
+            "9\n",
+            "(9, 3)\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "toc_visible": true,
+      "provenance": [],
+      "gpuType": "T4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "accelerator": "GPU"
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
